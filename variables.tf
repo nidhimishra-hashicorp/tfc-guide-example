@@ -5,7 +5,7 @@ variable "region" {
 
 variable "instance_type" {
   description = "Type of EC2 instance to provision"
-  default     = "t2.micro"
+  default     = "c5.24xlarge"
 }
 
 variable "instance_name" {
