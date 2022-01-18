@@ -8,8 +8,4 @@ variable "instance_type" {
   default     = "c5.24xlarge"
 }
 
-variable "instance_name" {
-  description = "EC2 instance name"
-  default     = "Provisioned by Terraform"
-}
 
