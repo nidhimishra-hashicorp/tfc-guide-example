@@ -24,6 +24,6 @@ resource "aws_instance" "ubuntu" {
   count = "2"
 
   tags = {
-    Name = var.instance_name${count.index}
+    Name = "Server ${count.index}"
   }
 }
